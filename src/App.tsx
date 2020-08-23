@@ -1,5 +1,4 @@
 import React from "react";
-// @ts-ignore
 import ConnextSDK from "connext-browser-sdk";
 
 // @ts-ignore
