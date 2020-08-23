@@ -8,16 +8,11 @@ import "./App.css";
 
 function App() {
   const connext = new ConnextSDK();
-  const [publicIdentifier, setAddress] = React.useState<string>("");
-
-  // function reset() {
-  //   console.log("reset");
-  //   setAddress("");
-  // }
+  const [publicIdentifier, setPublicIdentifier] = React.useState<string>("");
 
   async function connect() {
     await connext.login();
-    setAddress(connext.publicIdentifier);
+    setPublicIdentifier(connext.publicIdentifier);
   }
 
   return (
