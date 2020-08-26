@@ -1,5 +1,5 @@
 import React from "react";
-import ConnextSDK from "connext-browser-sdk";
+import ConnextSDK from "connext";
 
 // @ts-ignore
 import logo from "./logo.svg";
